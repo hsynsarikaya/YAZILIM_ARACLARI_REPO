@@ -11,7 +11,8 @@ public class Hesaplama {
 		System.out.println(sonuc);
 		int sonuc1 = topla(10, 20);
 		System.out.println(sonuc1);
-		
+		int sonuc2 = carpma(1, 2);
+		System.out.println(sonuc2);
 	}
 	
 	/**
