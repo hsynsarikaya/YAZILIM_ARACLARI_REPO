@@ -9,6 +9,7 @@ public class Hesaplama {
 	public static void main(String[] args){
 		int sonuc = topla(19, 25);
 		System.out.println(sonuc);
+		System.out.println("merhaba");
 	}
 	
 	/**

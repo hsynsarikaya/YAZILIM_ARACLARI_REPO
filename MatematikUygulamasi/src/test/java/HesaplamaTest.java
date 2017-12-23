@@ -22,7 +22,11 @@ public class HesaplamaTest {
 		int gercekSonuc = Hesaplama.topla(25, 14);
 		assertEquals(39, gercekSonuc);
 	}
-	
+	@Test
+	public void testTopla1ve2() {
+		int gercekSonuc = Hesaplama.topla(1, 2);
+		assertEquals(3, gercekSonuc);
+	}
 	@Test
 	public void testToplaNegatif() {
 		int gercekSonuc = Hesaplama.topla(-25, -14);
