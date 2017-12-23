@@ -30,7 +30,7 @@ public class HesaplamaTest {
 	@Test
 	public void testCarpma1ve2() {
 		int gercekSonuc2 = Hesaplama.carpma(1, 2);
-		assertEquals(30, gercekSonuc2);
+		assertEquals(3, gercekSonuc2);
 	}
 	@Test
 	public void testToplaNegatif() {
