@@ -23,9 +23,9 @@ public class HesaplamaTest {
 		assertEquals(39, gercekSonuc);
 	}
 	@Test
-	public void testTopla1ve2() {
-		int gercekSonuc = Hesaplama.topla(1, 2);
-		assertEquals(3, gercekSonuc);
+	public void testTopla10ve20() {
+		int gercekSonuc1 = Hesaplama.topla(10, 20);
+		assertEquals(30, gercekSonuc1);
 	}
 	@Test
 	public void testToplaNegatif() {
